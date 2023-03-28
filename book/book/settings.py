@@ -139,3 +139,7 @@ EMAIL_HOST = 'smtp.mailtrap.io'
 EMAIL_HOST_USER = '9bf292b0b484aa'
 EMAIL_HOST_PASSWORD = '8025eefc8c18ce'
 EMAIL_PORT = '2525'
+
+LOGIN_REDIRECT_URL = 'dashboard'
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
