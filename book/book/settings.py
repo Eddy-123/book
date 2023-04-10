@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#bw8_#7_9++ea((b38h7f#0f(5q)tc2k013ye&9$-^$s3020(8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['6a93-156-0-213-19.ngrok.io']
 
 SITE_ID = 1
 
@@ -143,3 +143,5 @@ EMAIL_PORT = '2525'
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
