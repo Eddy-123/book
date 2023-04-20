@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#bw8_#7_9++ea((b38h7f#0f(5q)tc2k013ye&9$-^$s3020(8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['6a93-156-0-213-19.ngrok.io']
+ALLOWED_HOSTS = ['book.com', 'localhost', '127.0.0.1']
 
 SITE_ID = 1
 
@@ -33,6 +33,7 @@ SITE_ID = 1
 # Application definition
 
 INSTALLED_APPS = [
+    'social_django',
     'account.apps.AccountConfig',
     'django.contrib.admin',
     'django.contrib.auth',
