@@ -1,1 +1,4 @@
 book/media/
+.idea/
+*.pyc
+*.pyo
